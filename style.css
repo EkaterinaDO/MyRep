@@ -638,8 +638,8 @@ h3 {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     color: #181818;
@@ -730,7 +730,9 @@ h3 {
     width: 330px;
 }
 
-
+.overhaul-mobile {
+    display: none;
+}
 
 .content-section5 {
     display: flex;
@@ -1541,6 +1543,7 @@ h3 {
         position: relative;
         bottom: 140px;
         z-index: 1;
+        left: 6px;
     }
 
     .ellipse2 {
@@ -1583,8 +1586,14 @@ h3 {
         right: 80px;
     }
 
+    .frame-apartment-area {
+        position: relative;
+        left: 160px;
+        bottom: 75px;
+    }
+
     .section-3 {
-        background: black;
+        background: #131313;
     }
 
     .content-section3 {
@@ -1592,13 +1601,37 @@ h3 {
         align-items: center;
         display: flex;
         flex-direction: column;
+        margin-right: 0px;
+        padding-bottom: 35px;
     }
 
     .content-section4 {
         position: static;
-        background-color: #131313;
+        background-color: #FFFFFF;
         margin-right: 0px;
-        padding-bottom: 33px;
+    }
+
+    .overhaul-mobile {
+        display: block;
+        width: 392px;
+        height: 421px;
+    }
+
+    .overhaul-desc {
+        display: none;
+    }
+
+    .wrapper-content-ul {
+        position: relative;
+        right: 32px;
+    }
+
+    .wrapper-content {
+        margin-right: 0px;
+    }
+
+    .section-4 {
+        margin-top: 70px;
     }
 
     .repair-img {
