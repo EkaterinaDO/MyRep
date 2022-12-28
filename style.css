@@ -1434,7 +1434,7 @@ h3 {
     }
 
     .section-1 {
-        max-height: 375px;
+        height: 476px;
     }
 
     .content-section1 {
@@ -1638,8 +1638,12 @@ h3 {
 
     .overhaul-mobile {
         display: block;
-        width: 392px;
+        width: 340px;
         height: 421px;
+    }
+
+    .designer-img {
+        width: 340px;
     }
 
     .overhaul-desc {
@@ -1871,6 +1875,10 @@ h3 {
         bottom: 155px;
         position: relative;
         padding-top: 160px;
+    }
+
+    .redecorating-img {
+        width: 340px;
     }
 
 
