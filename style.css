@@ -1552,11 +1552,9 @@ h3 {
     }
 
     .icon-mobile {
-        width: 500px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-left: 90px;
     }
 
     .ellipse {
@@ -1579,7 +1577,7 @@ h3 {
         border-radius: 50%;
         position: relative;
         bottom: 140px;
-        left: 20px;
+        left: 242px;
     }
 
     .stroke {
@@ -1589,7 +1587,7 @@ h3 {
         clip-path: polygon(67% 0, 10% 50%, 57% 100%, 44% 100%, 0 50%, 55% 0);
         position: relative;
         bottom: 140px;
-        right: 119px;
+        right: 15px;
         z-index: 1;
         border: 2px solid white;
     }
@@ -1602,7 +1600,7 @@ h3 {
         transform: rotate(-180deg);
         position: relative;
         bottom: 140px;
-        right: 106px;
+        left: 217px;
         border: 2px solid white;
     }
 
@@ -1914,11 +1912,8 @@ h3 {
     }
 
     .icon-mobile-section4 {
-        width: 500px;
         display: flex;
-        justify-content: space-around;
         align-items: center;
-        margin-left: -40px;
     }
 
     .icon-section9-mobile {
@@ -1970,11 +1965,54 @@ h3 {
         display: none;
     }
 
+    .ellipse-section2-mobile {
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        border-radius: 50%;
+        position: relative;
+        bottom: 140px;
+        left: 170px;
+    }
+
+    .ellipse2-section2-mobile {
+        background-image: url('./img/img-mobile/Ellipse.svg');
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        border-radius: 50%;
+        position: relative;
+        bottom: 140px;
+        right: 160px;
+    }
+
+    .stroke-section2-mobile {
+        width: 7px;
+        height: 9px;
+        background: #FFFFFF;
+        clip-path: polygon(67% 0, 10% 50%, 57% 100%, 44% 100%, 0 50%, 55% 0);
+        position: relative;
+        bottom: 140px;
+        right: 136px;
+        z-index: 1;
+        border: 2px solid white;
+    }
+
+    .stroke2-section2-mobile {
+        width: 7px;
+        height: 9px;
+        background: #FFFFFF;
+        clip-path: polygon(67% 0, 10% 50%, 57% 100%, 44% 100%, 0 50%, 55% 0);
+        transform: rotate(-180deg);
+        position: relative;
+        bottom: 140px;
+        border: 2px solid white;
+        left: 98px;
+    }
 
     .footer {
         display: none;
     }
-
 
 
     .wrapper-picture-section4 {
